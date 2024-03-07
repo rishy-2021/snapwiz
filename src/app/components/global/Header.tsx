@@ -120,12 +120,11 @@ const Header = () => {
           defaultValue={"India"}
           popupMatchSelectWidth={false}
         >
-          <Option value="jack">Jack</Option>
-          <Option value="lucy">Lucy</Option>
-          <Option value="disabled" disabled>
-            Disabled
-          </Option>
-          <Option value="Yiminghe">yiminghe</Option>
+          <Option value="jack">Us</Option>
+          <Option value="lucy">India</Option>
+          <Option value="Yiminghe">Chine</Option>
+          <Option value="Yiminghe">South korea</Option>
+          <Option value="Yiminghe">Armenia</Option>
         </Select>
         <p className="text-lg font-semibold mx-3">Login</p>
         <Button
