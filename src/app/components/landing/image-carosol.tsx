@@ -9,7 +9,7 @@ const contentStyle: React.CSSProperties = {
     background: '#364d79',
   };
 
-const ImageUploader = () => {
+const ImageCarosol = () => {
    return (
     <div className="w-full bg-red-100 text-center h-500 p-5">
     <Carousel autoplay dots={false} className="">
@@ -23,4 +23,4 @@ const ImageUploader = () => {
   );
 };
 
-export default ImageUploader;
+export default ImageCarosol;

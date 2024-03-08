@@ -122,9 +122,9 @@ const Header = () => {
         >
           <Option value="jack">Us</Option>
           <Option value="lucy">India</Option>
-          <Option value="Yiminghe">Chine</Option>
-          <Option value="Yiminghe">South korea</Option>
-          <Option value="Yiminghe">Armenia</Option>
+          <Option value="chine">Chine</Option>
+          <Option value="south-korea">South korea</Option>
+          <Option value="armenia">Armenia</Option>
         </Select>
         <p className="text-lg font-semibold mx-3">Login</p>
         <Button
