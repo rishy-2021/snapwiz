@@ -16,7 +16,7 @@ const FloatingReview = () => {
    return (
     <div className="w-full flex items-center justify-center flex-row px-5 overflow-hidden">
       {state.map((val, idx) => (
-        <div className="flex flex-col mt-5">
+        <div className="flex flex-col mt-5" key={idx}>
          <Card
          hoverable
          style={{ width: 325 }}
@@ -26,6 +26,7 @@ const FloatingReview = () => {
         <div className="flex items-center justify-start">
         <Image
             src={`https://hotpot.ai/images/site/ai/headshot_maker/style_gallery/${val}.png`}
+            alt="image"
             className="border-2 rounded-full"
             key={idx}
             width={50}
@@ -40,6 +41,7 @@ const FloatingReview = () => {
         <p className="text-white text-lg leading-tight my-3 p-1">Very happy. Some were hilarious, but now I better understand what to do next time.</p>
           <Image
             src={`https://hotpot.ai/images/site/ai/headshot_maker/style_gallery/${val}.png`}
+            alt="image"
             className="rounded-xl"
             key={idx}
             preview={false}
@@ -54,6 +56,7 @@ const FloatingReview = () => {
         <div className="flex items-center justify-start">
         <Image
             src={`https://hotpot.ai/images/site/ai/headshot_maker/style_gallery/${val+7}.png`}
+            alt="image"
             className="border-2 rounded-full"
             key={idx}
             width={50}
@@ -68,21 +71,12 @@ const FloatingReview = () => {
         <p className="text-white text-lg leading-tight my-3 p-1">Very happy. Some were hilarious, but now I better understand what to do next time.</p>
           <Image
             src={`https://hotpot.ai/images/site/ai/headshot_maker/style_gallery/${val+7}.png`}
+            alt="image"
             className="rounded-xl"
             key={idx}
             preview={false}
           />
        </Card>
-        //   {/* <Image
-        //     src={`https://hotpot.ai/images/site/ai/headshot_maker/style_gallery/${
-        //       val + 7
-        //     }.png`}
-        //     className="border-2 rounded-xl"
-        //     key={idx}
-        //     width={175}
-        //     height={175}
-        //     preview={false}
-        //   /> */}
         </div>
       ))}
     </div>

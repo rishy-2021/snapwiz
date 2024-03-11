@@ -8,7 +8,7 @@ const Footer = () => {
               <p>Aragon.ai</p>
             </div>
             <p className="mt-2 max-w-xs text-gray-500">
-            "Aragon.ai just saved me $500 and hours of photography time."
+            &quot;Aragon.ai just saved me $500 and hours of photography time.&quot;
             </p>
             <ul className="mt-8 flex gap-6">
               <li>

@@ -19,9 +19,10 @@ const HeadshotResult = () => {
     <div className="lg:w-2/3 flex items-center justify-center relative">
     <div className="w-11/12 flex items-center justify-center flex-row lg:px-5">
       {state.map((val, idx) => (
-        <div className="lg:mr-1.5 mx-auto">
+        <div className="lg:mr-1.5 mx-auto" key={idx}>
           <Image
             src={`https://hotpot.ai/images/site/ai/headshot_maker/style_gallery/${val}.png`}
+            alt="image"
             className="border-2 rounded-xl"
             key={idx}
             width={175}
@@ -32,6 +33,7 @@ const HeadshotResult = () => {
             src={`https://hotpot.ai/images/site/ai/headshot_maker/style_gallery/${
               val + 7
             }.png`}
+            alt="image"
             className="border-2 rounded-xl"
             key={idx}
             width={175}

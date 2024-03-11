@@ -43,10 +43,11 @@ const Privacy = () => {
             description="Your data deserves the best protection. We encrypt all sensitive user data."
           />
       </div>
-      <p className="w-1/4 text-lg font-semibold text-center text-white mt-10 px-10">"I love Aragon.ai! It created some excellent photos for me."</p>
+      <p className="w-1/4 text-lg font-semibold text-center text-white mt-10 px-10">&quot;I love Aragon.ai! It created some excellent photos for me.&quot;</p>
       <div className="flex items-center justify-start mt-5">
         <Image
             src={`https://hotpot.ai/images/site/ai/headshot_maker/style_gallery/5.png`}
+            alt="profile"
             className="border border-slate-200 rounded-full"
             width={40}
             height={40}

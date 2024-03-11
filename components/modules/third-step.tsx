@@ -21,7 +21,7 @@ const ThirdStep = () => {
           Select your headshots
         </p>
         <p className="text-gray-500 text-center text-lg lg:text-xl tracking-wide mt-3 lg:mt-5 px-5">
-          You'll receive different backgrounds, poses, and styles to choose the
+          You&apos;ll receive different backgrounds, poses, and styles to choose the
           perfect AI headshot. Ready for all use cases, from personal to the
           most professional.
         </p>

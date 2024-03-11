@@ -13,11 +13,9 @@ const ImageCarosol = () => {
    return (
     <div className="w-full bg-red-100 text-center h-500 p-5">
     <Carousel autoplay dots={false} className="">
-      {/* <div className="bg-green-100"> */}
       {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((val, idx) => (
-            <Image src={`https://picsum.photos/200/300?random=${val}`} className="bg-green-100 p-3" key={idx}/>
+            <Image src={`https://picsum.photos/200/300?random=${val}`} alt="image" className="bg-green-100 p-3" key={idx}/>
         ))}
-      {/* </div> */}
   </Carousel>
   </div>
   );

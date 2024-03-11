@@ -26,7 +26,7 @@ const TrustedByCompanies = () => {
     <div className="flex flex-col items-center  justify-center mt-10 mb-20">
         <p className="text-gray-500 font-semibold mb-3 text-xs md:text-base lg:text-base">TRUSTED BY LEADING PROFESSIONALS</p>
             <div className="lg:w-2/3 md:w-5/6">
-            <Image src={imgArr[state]} className=" text-center px-5" preview={false} />
+            <Image src={imgArr[state]} alt="image" className=" text-center px-5" preview={false} />
             </div>
   </div>
   );

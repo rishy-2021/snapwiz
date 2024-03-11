@@ -19,11 +19,10 @@ const ImageCard = () => {
     <div className="relative mt-5">
       <div className="w-100vw flex justify-evenly flex-wrap md:flex-nowrap flex-row h-500 px-5">
         {state.map((val, idx) => (
-          <div className="lg:mr-1.5">
+          <div className="lg:mr-1.5" key={idx}>
             <Image
               src={`https://hotpot.ai/images/site/ai/headshot_maker/style_gallery/${val}.png`}
               className="border-2 !w-36 lg:!w-auto rounded-xl"
-              key={idx}
             />
           </div>
         ))}
