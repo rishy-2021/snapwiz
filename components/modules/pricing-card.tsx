@@ -34,13 +34,8 @@ const PricingCard = () => {
               <div className="flex flex-col p-6 space-y-6 rounded-2xl shadow sm:p-8 text-gray-900">
                 <div className="space-y-2">
                   <h4 className="text-2xl font-bold Inter">Starter</h4>
-                  <span className="text-6xl font-bold Inter">$12</span>
-                  <span className="text-sm tracking-wide Inter">/month</span>
+                  <span className="text-6xl font-bold Inter">$35</span>
                 </div>
-                <p className="leading-relaxed Inter">
-                  The plan for developers and startups, with lots of premium
-                  features.
-                </p>
                 <ul className="flex-1 space-y-2">
                   <li className="flex items-center space-x-2">
                     <svg
@@ -56,7 +51,7 @@ const PricingCard = () => {
                       ></path>
                     </svg>
                     <span className="undefined Inter">
-                      3 Social Media Accounts
+                      20 high-quality headshots
                     </span>
                   </li>
                   <li className="flex items-center space-x-2">
@@ -73,7 +68,7 @@ const PricingCard = () => {
                       ></path>
                     </svg>
                     <span className="undefined Inter">
-                      Free Platform Access
+                      5 outfits and backgrounds
                     </span>
                   </li>
                   <li className="flex items-center space-x-2">
@@ -90,7 +85,7 @@ const PricingCard = () => {
                       ></path>
                     </svg>
                     <span className="undefined Inter">
-                      24/7 Customer Support
+                      60 minute turnaround time
                     </span>
                   </li>
                 </ul>

@@ -14,9 +14,9 @@ const FloatingReview = () => {
       setState(val);
     };
    return (
-    <div className="w-full flex items-center justify-center flex-row px-5">
+    <div className="w-full flex items-center justify-center flex-row px-5 overflow-hidden">
       {state.map((val, idx) => (
-        <div className="flex flex-col mt-10">
+        <div className="flex flex-col mt-5">
          <Card
          hoverable
          style={{ width: 325 }}
