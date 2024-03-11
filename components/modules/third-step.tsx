@@ -1,8 +1,5 @@
 "use client";
-import { Button, Divider, Image } from "antd";
-import { useState } from "react";
-import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
-import useScreenSize from "../global/useResizeHook";
+import { Divider } from "antd";
 import HeadshotResult from "./headshot-result";
 
 const ThirdStep = () => {
