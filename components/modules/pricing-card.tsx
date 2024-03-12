@@ -30,11 +30,13 @@ const PricingCard = () => {
             </Button>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 -mx-4">
+
             <div className="flex w-full mb-8 border rounded-3xl lg:mb-0">
-              <div className="flex flex-col p-6 space-y-6 rounded-2xl shadow sm:p-8 text-gray-900">
+              <div className="flex flex-col p-6 space-y-6 rounded-2xl sm:p-8 text-gray-900">
                 <div className="space-y-2">
                   <h4 className="text-2xl font-bold Inter">Starter</h4>
                   <span className="text-6xl font-bold Inter">$35</span>
+                  <span className="text-sm tracking-wide Inter">/month</span>
                 </div>
                 <ul className="flex-1 space-y-2">
                   <li className="flex items-center space-x-2">

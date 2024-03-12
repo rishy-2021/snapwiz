@@ -8,10 +8,10 @@ const ThirdStep = () => {
     <>
       <div className="w-3/4 lg:w-1/3 flex flex-col items-center py-5 mb-5">
         <Divider
-          className="bg-gradient-to-t from-blue-500 via-blue-200 to-blue-50 h-10 w-1"
+          className="bg-gradient-to-t from-purple-500 via-purple-200 to-purple-50 h-10 w-1"
           type="vertical"
         />
-        <p className="bg-purple-400 w-10 h-10 lg:w-12 lg:h-12 flex justify-center items-center rounded-full text-white font-semibold">
+        <p className="bg-purple-400 w-10 h-10 lg:w-12 lg:h-12 flex justify-center items-center rounded-full text-white font-semibold mb-1">
           3
         </p>
         <p className="text-2xl lg:text-5xl text-center font-bold leading-tight px-5">
